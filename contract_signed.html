@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EjemploVane</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;800&display=swap');
+  </style>
+</head>
+<body>
+  <table style=" border-collapse: collapse; background: #6168DB;  border-style: hidden; border-spacing: 0; width: 100%;" >
+    <tr>
+      <td style="background: #6168DB;"></td>
+      <td style="border:none;  width: 300px;">
+        <div style="background: #6168DB; height:120px; padding-top:30px;">
+          <div style="width: 250px; text-align: right;">
+            <h3 style="font-size:36px; color:#F5F6F6; padding: 0; margin: 0; font-family: 'Nunito', sans-serif; padding-right: 50px; font-weight: 400;">Bienvenido</h3>
+            <h3 style="display: inline; font-size: 36px; color:#F5F6F6; padding: 0; margin: 0; font-family: 'Nunito', sans-serif; font-weight: 400;">a </h3>
+            <h3 style="display: inline; font-size: 36px; color:#F5F6F6; padding: 0; margin: 0; font-family: 'Nunito', sans-serif; font-weight: 800;">Mi Tienda</h3>
+          </div>
+        </div>
+      </td>
+      <td style="background: #6168DB;"></td>
+    </tr>
+    <tr>
+      <td style="background-color: #6168DB; border:none;"></td>
+      <td style="
+        width: 300px;
+        box-sizing: border-box;
+        padding:0px;
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        background: #FFF;
+        height:80px;
+        border-bottom: 1px solid #FFF;
+        ">
+        <p style="margin-left: 20px; padding-top: 50px; font-family: 'Nunito', sans-serif; font-weight: 400;"><strong >Bienvenido estimado {{partnerName}}</strong></p>
+      </td>
+      <td style="background: #6168DB; border:none;"></td>
+    </tr>
+    <tr>
+      <td style="background: #F5F6F6;"></td>
+      <td style="background: #F5F6F6;
+        border-top: 1px solid #FFF;
+        box-sizing: border-box;
+        padding:0px;
+        width: 300px;">
+        <div style="min-height: 100%;
+          box-sizing: border-box;
+          background-color: #F5F6F6;
+          border-bottom-left-radius: 16px;
+          border-bottom-right-radius: 16px;
+          font-family: 'Nunito', sans-serif; font-weight: 400; font-size: 14px; text-align: center; color: #706967; line-height: 1.2rem;">
+          <div style="width: 554px; margin: 0px auto 0px; padding: 20px 10px 40px 0; background-color: #F5F6F6;
+            border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; background-color:#FFF;">
+            <div style="font-size: 24px; font-weight: bold; margin-bottom: 10px; color: #332927; text-align: left; margin-left: 20px;">
+              Te recomendamos los mejores... {{gratitude}}
+            </div>
+            <div style="margin-bottom: 30px;  text-align: left; margin-left: 20px; font-family: 'Nunito', sans-serif; padding-right: 50px; font-weight: 200;">
+              <p>{{mainMessage}}</p>
+              <br/>
+            </div>
+          </div>
+          <div style="background:#F5F6F6; padding-top: 50px;">
+            <div style="color: #332927; font-weight: bold; margin-bottom: 20px;">
+              {{MessageIf}}}
+              <p style="color: #332927; font-weight: bold; margin-bottom: 20px; vertical-align: middle;">vaneza</p>
+            </div>
+            <a href="{{TERMS_AND_CONDITIONS_LINK}}" target="_blank" style="font-size: 10px; text-decoration: underline; color: #b8b4b4;">
+              {{applyTC}}
+            </a>
+            <div style="font-size: 12px; margin: 20px 0 46px; padding-bottom: 20px;">
+              {{copyringht}}
+              <br>
+              {{allRightsReserved}}
+            </div>
+          </div>
+        </div>
+      </td>
+      <td style="background: #F5F6F6;"></td>
+    </tr>
+  </table>
+</body>
+</html>
